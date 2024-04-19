@@ -1,0 +1,39 @@
+h1 {
+    color: #F3DAD8;
+    background-color: #CC1133;
+    font-family: Bodoni MT;
+    margin: -10px;
+    padding: 10px;
+    font-size: 35px;
+    letter-spacing: 1px;
+  }
+
+  navi {
+    background-color: #CC1133;
+    text-align: right;
+    font-size: 20px;
+    font-family: Constantia;
+    width: 100%;
+
+
+  }
+
+
+  body {
+    background-color: #FFE9DF;
+    margin: 0;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  p {
+    text-align: left;
+
+  }
+
+  .Clickhier {
+    color: #F3DAD8;
+    text-align: right;
+  }
