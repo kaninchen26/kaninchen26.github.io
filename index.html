@@ -12,8 +12,8 @@
 <div class="navi">
   <div class="buttoncontainer">
     <button>Startseite</button>
-    <button>Impressum</button>
-    <button>Über uns</button>
+    <button>Anmelden</button>
+    <button>Suche</button>
   </div>
 
 </div>
@@ -39,13 +39,13 @@
     
 
 
-        <h2>Neueröffnung von Hotel Lift me up</h2>
+        <h2>Hotel Lift me up</h2>
         <p>Die neueste Inovation: das Hotel Lift me up.
            Das in Rumänien liegende Hotel feierte kürzlich seine Neueröffnung und schon hat das Hotel großen Erfolg.
            Denn allein schon diese Woche war das Hotel so gut wie ausgebucht berichtet die Hotelchefin. Die deutsche Hotelchefin
         </p>
     
-        <h3>Neueröffnung</h3>
+        <h3>Wonderbowlhouse</h3>
           <p>
             Alle Bowl Begeisterten können sich freuen: das größte Bowlgeschäft hat 
             in München neulich seine Eröffnung gefeiert. Man findet das Wonderbowlhouse
@@ -54,14 +54,47 @@
         </div>
      </section>
 
+     <section class="Anmelden">
 
 
 
+
+     </section>
+
+     <section class="Suche">
+      <h4>Suche</h4>
+
+     </section>
 
 
     
-<script>
+  <script>
+      function showStartseite(){
+        var StartseiteSection = document.querySelector(".startseite");
+        StartseiteSection.style.display = "flex";
+        var AnmeldenSection = document.querySelector(".anmelden");
+        AnmeldenSection.style.display = "none";
+        var SucheSection = document.querySelector(".suche");
+        SucheSection.style.display = "none";
+      }
 
+      function showAnmelden(){
+        var StartseiteSection = document.querySelector(".startseite");
+        StartseiteSection.style.display = "none";
+        var AnmeldenSection = document.querySelector(".anmelden");
+        AnmeldenSection.style.display = "flex";
+        var SucheSection = document.querySelector(".suche");
+        SucheSection.style.display = "none";
+      }
+
+      function showSuche(){
+        var StartseiteSection = document.querySelector(".startseite");
+        StartseiteSection.style.display = "none";
+        var AnmeldenSection = document.querySelector(".anmelden");
+        AnmeldenSection.style.display = "none";
+        var SucheSection = document.querySelector(".suche");
+        SucheSection.style.display = "flex";
+      }
   </script>
   </body>
   
